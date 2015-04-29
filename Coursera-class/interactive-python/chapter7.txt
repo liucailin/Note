@@ -1,0 +1,22 @@
+spceship
+
+math:
+pos += vel
+vel += acce
+vel *= (1 - c)  #c是摩擦力
+
+v = v + acce
+acce = thrust + friction
+friction= - c * v
+
+forward = [math.cos($), math.sin($)]
+angle += angle-vel
+
+simple-gui:
+play sound
+
+tips:
+code style
+不要重复代码，利用函数或者类来封装
+用字典映射消除if-else控制yuj
+避免魔术数

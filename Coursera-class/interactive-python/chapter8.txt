@@ -1,0 +1,11 @@
+python:
+set: unordered collection without duplicate item
+list: ordered collection
+dic: key-value collection
+
+math:
+collision detect of circle
+
+collision == dis < r1 + r2
+
+2DÍ¼Æ¬¶¯»­
